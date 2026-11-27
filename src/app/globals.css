@@ -3,7 +3,7 @@
 /* 따뜻한 크림 → 살구 톤 하나로 통일된 테마 */
 :root {
   color-scheme: light;
-  --background: #fdf6ec;
+  --background: #fffcf8;
   --foreground: #3b2f2a;
   --muted: #7a6a61;
 }
@@ -26,8 +26,8 @@ body {
   letter-spacing: -0.01em;
   word-break: keep-all;
   background:
-    radial-gradient(60rem 40rem at 10% -10%, #fffaf2 0%, transparent 60%),
-    radial-gradient(50rem 40rem at 110% 110%, #ffd9c2 0%, transparent 60%),
-    linear-gradient(160deg, #fdf6ec 0%, #fbe8d8 55%, #f8d6c0 100%);
+    radial-gradient(60rem 40rem at 10% -10%, #ffffff 0%, transparent 60%),
+    radial-gradient(50rem 40rem at 110% 110%, #fdf0e7 0%, transparent 60%),
+    linear-gradient(160deg, #fffcf8 0%, #fef8f2 55%, #fdf3eb 100%);
   background-attachment: fixed;
 }
